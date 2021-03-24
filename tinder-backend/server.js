@@ -22,7 +22,6 @@ mongoose.connect(connection_url, {
 });
 
 // API Endpoints
-// ## go root url, callback func
 app.get("/", (req, res) => {
   res.status(200).send("HELLO TINDER CLONE!!!");
 });
